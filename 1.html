@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日寄语</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('giao.jpg'); /* Replace with the path to the uploaded image */
+            background-size: contain; /* Show the whole face */
+            background-repeat: no-repeat;
+            background-position: center center; /* Center the image */
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Add a black overlay to make text more readable */
+            z-index: -1;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+            margin-bottom: 30px;
+            border-bottom: 3px solid;
+            padding-bottom: 10px;
+        }
+
+        p.content {
+            max-width: 600px;
+            text-align: justify;
+            line-height: 1.6;
+            font-size: 1.5em;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>生日寄语</h1>
+    <p class="content">祝我们的小沈生日快乐, 
+        在以后的日子里身体健健康康的；多吃饭，少喝酒。</p>
+
+    <p class = "content">以后要多听我的话, 哥不能害你，听哥的话，跟哥走，买不了吃亏，买不了上当</p>
+</body>
+</html>
